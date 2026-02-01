@@ -1,12 +1,7 @@
-# テキストは自動判定しつつ、改行をLFに固定
 * text=auto eol=lf
-
-# 明示的にテキスト扱い
 *.yml text
 *.yaml text
 *.md text
-
-# バイナリ（差分・改行変換の対象外）
 *.png binary
 *.jpg binary
 *.jpeg binary
